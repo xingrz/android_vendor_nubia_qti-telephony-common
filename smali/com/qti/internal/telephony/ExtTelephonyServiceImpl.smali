@@ -259,6 +259,18 @@
     return v0
 .end method
 
+.method public getPrimaryStackPhoneId()I
+    .locals 1
+
+    .prologue
+    .line 142
+    invoke-static {}, Lcom/qti/internal/telephony/QtiEmergencyCallHelper;->getPrimaryStackPhoneId()I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public getUiccApplicationCount(I)I
     .registers 5
     .param p1, "slotId"    # I

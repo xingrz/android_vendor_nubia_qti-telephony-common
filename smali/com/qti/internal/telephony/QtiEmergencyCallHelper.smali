@@ -252,7 +252,7 @@
     goto :goto_4f
 .end method
 
-.method private static getPrimaryStackPhoneId()I
+.method public static getPrimaryStackPhoneId()I
     .registers 7
 
     .prologue
